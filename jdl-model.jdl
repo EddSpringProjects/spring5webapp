@@ -1,0 +1,14 @@
+
+entity Author {
+	firstName String
+    lastName String
+}
+
+entity Book {
+	title String
+    isbn String
+}
+relationship ManyToMany {
+    Author to Book
+}
+
